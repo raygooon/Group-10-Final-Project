@@ -1,0 +1,234 @@
+body {
+    background-color: beige;
+    background: size 2%;
+    padding: 25px;
+}
+main{
+    width: 100%;
+    background: beige;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: darkgoldenrod;
+    font-size: 75px;
+    font-family: oblique;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+h1 {
+    font-style: oblique;
+    color: darkgoldenrod;
+    font-size: 65px;
+    text-align: left;
+    margin-top: 15px;
+}
+h7{
+    font-style: oblique;
+    color: darkgoldenrod;
+    font-size: 65px;
+    text-align: left;
+    margin-top: 15px;
+    top: 500px;
+}
+p{
+    font-style: inherit;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background-color: burlywood;
+    position: absolute;
+    top: 70px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:beige;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input {
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid beige;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.Sign-in-button{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:beige;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.Sign-in-button:hover {
+    background: white;
+    color:black 
+}
+.Add-to-cart{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:beige;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.Add-to-cart:hover {
+    background: white;
+    color:black 
+}
+.cart-items:hover {
+    background: white;
+    color:black 
+}
+.hot{
+    width: 250px;
+    height: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+.latte{
+    width: 250px;
+    height: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+.macchiato{
+    width: 250px;
+    height: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+.espresso{
+    width: 250px;
+    height: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+.hot p {
+    text-align: center;
+    font-family: oblique;
+}
+.espresso p{
+    text-align: center;
+    font: oblique;
+}
+.DarkChoco {
+    width: 250px;
+    height: 300px;
+    background-color: burlywood;
+    position: static;
+    top: 150px;
+    left: 50px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+
+}
+.mocha {
+    width: 250px;
+    height: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+  
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  
+  }
+

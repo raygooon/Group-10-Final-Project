@@ -1,0 +1,12 @@
+create database coffee;
+use coffee;
+
+create table users(ID int primary key auto_increment, name varchar(150), address varchar(300), cnum varchar(100), email varchar(50), pass int);
+alter table users auto_increment = 1;
+
+create table cart(id int Primary key auto_increment, user_id int, name varchar(150), price  varchar(100), size varchar(200), image varchar(100), quantity int);
+
+create table products(id int primary key auto_increment,  name varchar(150), price  varchar(100),image varchar(100));
+
+create table orders(ordersid int primary key auto_increment, user_id int, name varchar(150), price  varchar(100), image varchar(100), quantity int,  date DATE);
+alter table orders auto_increment = 2214;

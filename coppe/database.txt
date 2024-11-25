@@ -1,0 +1,20 @@
+CREATE DATABASE coffee_shop;
+
+USE coffee_shop;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    description TEXT,
+    price DECIMAL(10, 2) NOT NULL,
+    image_path VARCHAR(100) NOT NULL
+);
+
+-- Insert sample data
+INSERT INTO products (name, description, price, image_path) VALUES
+('Espresso', 'A rich and flavorful shot of espresso.', 49.00, 'espresso.webp'),
+('Cappuccino', 'A classic Italian coffee drink.', 39.00, 'coffee.avif'),
+('Latte', 'A creamy latte with steamed milk.', 59.00, 'latte.jfif'),
+('Macchiato', 'Espresso with a dash of foamed milk.', 49.00, 'macchiato.jfif'),
+('Iced Dark Choco', 'A refreshing iced chocolate drink.', 59.00, 'iced dark choco.jfif'),
+('Iced Mocha', 'A chilled coffee-chocolate combo.', 49.00, 'iced.png');
